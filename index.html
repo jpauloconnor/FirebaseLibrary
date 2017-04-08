@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Learning how to use the Firebase">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Firebase Library</title>
+
+	<!-- Web Application Manifest -->
+	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" href="styles/main.css">	  
+</head>
+<body>
+	<header>
+		<div>
+			<h1>Firebase Library Work</h1>
+		</div>
+	</header>
+	<div id="notes-container">
+		<!-- Notes container -->
+		<div id="notes-card">
+			<div id="notes">
+				<span id="notes-filler"></span>
+			</div>
+
+			<h1>Note Upload</h1>
+			<form id="note-form" action="#">
+				<div class="">
+					<input class="" type="text" id="note">
+					<label class="" for="note">Note</label>
+				</div>
+				<button id="submit" disabled type="submit" class="">
+					Send
+				</button>
+			</form>
+
+			<h1>Image Upload</h1>
+			<form id="image-form" action="#">
+				<input id="mediaCapture" type="file" accept="image/*,capture=camera">
+				<button id="submitImage" title="Add an image" class="">
+					<i class="">Upload Image</i>
+				</button>
+			</form>
+
+		</div>
+
+
+
+	</div>
+</body>
+</html>

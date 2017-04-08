@@ -1,0 +1,7 @@
+{
+  "name": "Firebase Library",
+  "short_name": "Firebase Library",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

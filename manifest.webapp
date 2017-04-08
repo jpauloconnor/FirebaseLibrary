@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "Firebase Library",
+  "launch_path": "/index.html",
+  "description": "Library for using Firebase 2.0",
+  "developer": {
+    "name": "Paul O'Connor",
+    "url": "https://firebase.google.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Firebase Library",
+      "description": "Library for learning to use Firebase 2.0"
+    }
+  }
+}
