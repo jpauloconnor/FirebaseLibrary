@@ -42,11 +42,24 @@
 					<i class="">Upload Image</i>
 				</button>
 			</form>
-
 		</div>
-
-
-
 	</div>
+	<!-- Firebase -->
+	
+	<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	  	apiKey: "AIzaSyCCIb7vyFdnTHdWsG1h11PFQVEwVgFQTsA",
+	  	authDomain: "firenotes-5808b.firebaseapp.com",
+	  	databaseURL: "https://firenotes-5808b.firebaseio.com",
+	  	projectId: "firenotes-5808b",
+	  	storageBucket: "firenotes-5808b.appspot.com",
+	  	messagingSenderId: "7449908541"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+
+	<script src="scripts/main.js"></script>
 </body>
 </html>
